@@ -1,0 +1,23 @@
+2025-08-13 17:15:29 [[31merror[39m]: Error adding user:SequelizeUniqueConstraintError: Validation error
+2025-08-13 17:18:59 [[31merror[39m]: Error adding user:ReferenceError: employee is not defined
+2025-08-13 17:41:58 [[31merror[39m]: Error adding user:SequelizeUniqueConstraintError: Validation error
+2025-08-14 11:13:28 [[31merror[39m]: Error adding order:SequelizeForeignKeyConstraintError: Cannot add or update a child row: a foreign key constraint fails (`ecommerceDb`.`orders`, CONSTRAINT `orders_ibfk_1` FOREIGN KEY (`userId`) REFERENCES `users` (`userId`) ON DELETE CASCADE ON UPDATE CASCADE)
+2025-08-14 11:14:19 [[31merror[39m]: Error adding order:SequelizeForeignKeyConstraintError: Cannot add or update a child row: a foreign key constraint fails (`ecommerceDb`.`orders`, CONSTRAINT `orders_ibfk_1` FOREIGN KEY (`userId`) REFERENCES `users` (`userId`) ON DELETE CASCADE ON UPDATE CASCADE)
+2025-08-14 11:23:40 [[31merror[39m]: Error adding order:SequelizeForeignKeyConstraintError: Cannot add or update a child row: a foreign key constraint fails (`ecommerceDb`.`orders`, CONSTRAINT `orders_ibfk_1` FOREIGN KEY (`userId`) REFERENCES `users` (`userId`) ON DELETE CASCADE ON UPDATE CASCADE)
+2025-08-14 11:24:54 [[31merror[39m]: Error adding order:SequelizeForeignKeyConstraintError: Cannot add or update a child row: a foreign key constraint fails (`ecommerceDb`.`orders`, CONSTRAINT `orders_ibfk_1` FOREIGN KEY (`userId`) REFERENCES `users` (`userId`) ON DELETE CASCADE ON UPDATE CASCADE)
+2025-08-14 11:36:47 [[31merror[39m]: Error adding order:Error: User not found
+2025-08-14 11:49:39 [[31merror[39m]: Error adding order:Error: User not found
+2025-08-14 12:38:16 [[31merror[39m]: Error adding product:SequelizeForeignKeyConstraintError: Cannot add or update a child row: a foreign key constraint fails (`ecommerceDb`.`products`, CONSTRAINT `products_ibfk_1` FOREIGN KEY (`categoryId`) REFERENCES `categories` (`cid`) ON DELETE CASCADE ON UPDATE CASCADE)
+2025-08-14 12:43:30 [[31merror[39m]: Fetch error:Argument passed to findByPk is invalid: [object Object]
+2025-08-14 12:44:34 [[31merror[39m]: Fetch error:Argument passed to findByPk is invalid: [object Object]
+2025-08-14 12:45:37 [[31merror[39m]: Fetch error:Argument passed to findByPk is invalid: [object Object]
+2025-08-16 18:18:34 [[31merror[39m]: Fetch error:Unknown column 'Product.order' in 'where clause'
+2025-08-16 18:22:45 [[31merror[39m]: Fetch error:Cannot set headers after they are sent to the client
+2025-08-16 18:22:57 [[31merror[39m]: Fetch error:Cannot set headers after they are sent to the client
+2025-08-18 11:38:36 [[31merror[39m]: Fetch error:Unknown column 'Category.pid' in 'where clause'
+2025-08-18 11:47:48 [[31merror[39m]: Fetch error:Unknown column 'Product.id' in 'where clause'
+2025-08-18 16:56:27 [[31merror[39m]: Error Finding the user with name:undefined:Cannot read properties of undefined (reading 'trim')
+2025-08-18 17:41:16 [[31merror[39m]: Fetch error:Cannot set headers after they are sent to the client
+2025-08-18 17:42:02 [[31merror[39m]: Fetch error:Cannot set headers after they are sent to the client
+2025-08-21 15:17:24 [[31merror[39m]: Error adding user:SequelizeUniqueConstraintError: Validation error
+2025-08-21 15:56:46 [[31merror[39m]: Error adding user:SequelizeUniqueConstraintError: Validation error
